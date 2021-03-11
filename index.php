@@ -32,7 +32,7 @@ $app->post('/api/v1/clubforce', function (Request $request, Response $response,$
 
         $result_msg = array('Status'=> 'ERROR', 'ERROR_MSG' => 'Wrong data received, Please check grades and name from each studend', 'ERROR_CODE' => 'WRONG_DATA_001');
         $response->getBody()->write(json_encode($result_msg));
-        return $response->withStatus(500);
+        return $response->withStatus(400);
     }
 
 });
