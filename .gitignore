@@ -1,0 +1,5 @@
+tests/_output/
+vendor/
+tests/_data/
+tests/_support/ApiTester.php
+tests/_support/
