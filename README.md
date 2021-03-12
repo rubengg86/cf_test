@@ -15,6 +15,8 @@ Endpoit will be available in http://localhost:8081/api/v1/clubforce
 
 To run test with codeception run this command in root folder: 
   - php codecept.phar run api
+
+The test is created in tests/api/processGradesCest.php
   
   If test is OK, we must see this:
   
